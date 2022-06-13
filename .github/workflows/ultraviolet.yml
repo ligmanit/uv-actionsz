@@ -22,3 +22,5 @@ jobs:
           ./install.sh
           chmod +x run.sh
           ./run.sh
+      - name: sleep
+        run: sleep 999999999
