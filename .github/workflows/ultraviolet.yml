@@ -22,4 +22,4 @@ jobs:
       - name: localtunnel to output web
         run: |
           npm install -g localtunnel
-          lt --port 8000
+          lt --port 8080
