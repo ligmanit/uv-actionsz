@@ -14,13 +14,11 @@ jobs:
           cd Ultraviolet-Node
           npm install
           screen -dm npm start
-      - name: localtunnel to output web
+      - name: tunnel and expose to web
         run: |
-          echo npm install -g localtunnel > install.sh
-          echo lt -p 8080 > run.sh
-          chmod +x install.sh
-          ./install.sh
-          chmod +x run.sh
-          ./run.sh
+          wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+          sudo tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
+          screen -dm ngrok http 8080
+          curl localhost:4040/api/tunnels
       - name: sleep
         run: sleep 999999999
