@@ -1,10 +1,5 @@
 name: Ultraviolet-Node
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
   workflow_dispatch:
 
 jobs:
