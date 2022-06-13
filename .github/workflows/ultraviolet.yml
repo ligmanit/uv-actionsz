@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       # Runs the specified commands commands to get Ultraviolet-Node running.
-      - name: localtunnel to output web
-        run: |
-          npm install -g localtunnel
-          lt --port 8080
       - name: run ultraviolet
         run: |
           git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
           cd Ultraviolet-Node
           npm install
-          npm start
+          npm start > /dev/null 2>&1
+      - name: localtunnel to output web
+        run: |
+          npm install -g localtunnel
+          lt --port 8000
