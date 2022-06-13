@@ -16,6 +16,9 @@ jobs:
           screen -dm npm start
       - name: localtunnel to output web
         run: |
-          echo npm install -g localtunnel > run.sh
+          echo npm install -g localtunnel > install.sh
+          echo lt -p 8080 > run.sh
+          chmod +x install.sh
+          ./install.sh
           chmod +x run.sh
           ./run.sh
