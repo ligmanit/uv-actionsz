@@ -16,9 +16,7 @@ jobs:
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
-          wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
-          sudo tar xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
-          screen -dm ngrok http 8080
-          curl localhost:4040/api/tunnels
+          npm install -g localtunnel
+          lt -p 8080
       - name: sleep
         run: sleep 999999999
