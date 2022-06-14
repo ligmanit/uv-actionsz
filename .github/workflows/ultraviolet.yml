@@ -16,9 +16,11 @@ jobs:
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
-          screen -dm npm install -g localtunnel
+          npm install -g localtunnel
           tmux new -d -s uv
+          sleep 1
           tmux send-keys -t uv "lt -p 8080" ENTER
+          sleep 1
           tmux capture-pane -pt uv -S 1 -E 1
       - name: sleep
         run: screen -dm sleep 999999999
