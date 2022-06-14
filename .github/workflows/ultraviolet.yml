@@ -23,4 +23,4 @@ jobs:
           sleep 1
           tmux capture-pane -pt uv -S 1 -E 1
       - name: sleep
-        run: screen -dm sleep 999999999
+        run: sleep 999999999
