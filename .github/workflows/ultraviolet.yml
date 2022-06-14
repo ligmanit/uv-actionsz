@@ -8,9 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       # Runs the specified commands commands to get Ultraviolet-Node running.
-      - name: dependencies
-        run: |
-          sudo apt install tmux
       - name: run ultraviolet
         run: |
           git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
@@ -19,9 +16,9 @@ jobs:
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
-          npm install -g localtunnel
+          screen -dm npm install -g localtunnel
           tmux new -d -s uv
           tmux send-keys -t uv "lt -p 8080" ENTER
           tmux capture-pane -pt uv -S 1 -E 1
       - name: sleep
-        run: sleep 999999999
+        run: screen -dm sleep 999999999
