@@ -1,6 +1,6 @@
 # Ultraviolet-Actions
 
-This repo will help you get Ultraviolet running under GitHub Actions, with the power of localtunnel.me and Node.js
+This repo will help you get Ultraviolet running under GitHub Actions, with the power of localtunnel.me and Node.js and hardware waay better than repl.it :)
 
 # Setup
 
