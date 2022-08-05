@@ -47,12 +47,4 @@ If you have any issues or find any bugs in this project, please let me know so I
 
 You can contact me on discord with KingOfNetflix#7044, or you can post on the issues tab. Whatever suits you better.
 
-If you have any issues with Ultraviolet, please report them to the TitaniumNetwork Discord. https://discord.gg/unblock
-
-**DO NOT GO ON THE TITANIUM NETWORK DISCORD TO POST ISSUES ABOUT GITHUB ACTIONS OR THE "tunnel and expose to web" STEP**
-
-**ONLY REPORT ISSUES ON THE "run ultraviolet" STEP**
-
-If you can give me any help, please start a pull request so I can view your changes and add it to my repository.
-
 Thats it! Your done reading now. You can go on and do the things you do now. Bye!
