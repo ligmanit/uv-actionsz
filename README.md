@@ -1,6 +1,8 @@
 # Ultraviolet-Actions
 
-This repo will help you get Ultraviolet running under GitHub Actions, with the power of localtunnel.me and Node.js and hardware waay better than repl.it :)
+This repo will help you get Ultraviolet running under GitHub Actions, with the power of localtunnel.me and Node.js and hardware better than repl.it
+
+WARNING: This will only last for 2 hours (or maybe more if your lucky), don't complain please 
 
 # Setup
 
@@ -40,11 +42,6 @@ localtunnel might give you a warning, due to that people can phish, and do naugh
 
 Woooo!🥳
 
-Your now done with this, and you can now click the link to browse the web with Ultraviolet :D
-## Contributions & Issues
-
-If you have any issues or find any bugs in this project, please let me know so I can squash those bugs and try to make this project the most user-friendly for trying to get Ultraviolet up and running.
+Your now done with this, and you can now click the link to browse the web with Ultraviolet
 
 You can contact me on discord with KingOfNetflix#7044, or you can post on the issues tab. Whatever suits you better.
-
-Thats it! Your done reading now. You can go on and do the things you do now. Bye!
