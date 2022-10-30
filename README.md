@@ -36,11 +36,9 @@ Now that your in the workflow output, just wait a bit and you should see the lin
 
 ![link](https://github.com/kingofnetflix/ultraviolet-actions/blob/main/images/link.png?raw=true)
 
-localtunnel might give you a warning, due to that people can phish, and do naughty things with their tool, just go ahead and continue and your in!
+localtunnel might give you a warning, due to that people can phish, and do naughty things with their tool, just go ahead and continue and you should be able to use Ultraviolet
 
 ![reminder](https://github.com/kingofnetflix/ultraviolet-actions/blob/main/images/reminder.png?raw=true)
-
-Woooo!🥳
 
 Your now done with this, and you can now click the link to browse the web with Ultraviolet
 
