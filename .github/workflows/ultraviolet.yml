@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/hackdeezhacks/anonymous
-          cd anonymous
+          git clone https://github.com/ligmanit/abyss
+          cd abyss
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
