@@ -11,7 +11,6 @@ jobs:
       - name: run ultraviolet
         run: |
           git clone https://github.com/ligmanit/abyss
-          cd abyss
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
